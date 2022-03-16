@@ -10,7 +10,7 @@ interface ApiService {
     suspend fun getVideoByTag(
         @Query("part") part: String = "snippet,id",
         @Query("q") q: String,
-        @Query("key") key: String = "AIzaSyCSasUx_n_PEjEmm9G0xu0UZS9Cqd-WhIY",
+        @Query("key") key: String = "YOUR_KEY_HERE",
         @Query("maxResults") maxResults: Int = 5
     ): Response<MyYouTube>
 }
