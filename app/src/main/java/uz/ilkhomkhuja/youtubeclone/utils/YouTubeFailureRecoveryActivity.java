@@ -51,7 +51,7 @@ public abstract class YouTubeFailureRecoveryActivity extends YouTubeBaseActivity
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     if (requestCode == RECOVERY_DIALOG_REQUEST) {
       // Retry initialization if user performed a recovery action
-      getYouTubePlayerProvider().initialize("AIzaSyCSasUx_n_PEjEmm9G0xu0UZS9Cqd-WhIY", this);
+      getYouTubePlayerProvider().initialize("YOUR_KEY_HERE", this);
     }
   }
 
